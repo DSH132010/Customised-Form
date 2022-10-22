@@ -161,6 +161,7 @@ label>input[type=radio]+* {
      font-style: normal;
      font-weight: 500;
      font-size: 13px;
+     color: black;
      transition: all .5s ease-in
 }
 
