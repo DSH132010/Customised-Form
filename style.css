@@ -117,7 +117,8 @@ select {
      border: 1px solid #000;
      border-radius: 4px;
      margin-left: 10px;
-     padding: 3px 5px 3px 5px
+     padding: 2px 5px 2px 5px;
+     width: 9em
 }
 
 label>input[type=radio] {
@@ -161,7 +162,6 @@ label>input[type=radio]+* {
      font-style: normal;
      font-weight: 500;
      font-size: 13px;
-     color: black;
      transition: all .5s ease-in
 }
 
