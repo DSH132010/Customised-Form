@@ -111,7 +111,8 @@ select {
   border: 1px solid #000000;
   border-radius: 4px;
   margin-left: 10px;
-  padding: 3px 5px 3px 5px;
+  padding: 2px 5px 2px 5px;
+  width: 9em;
 }
 
 label > input[type="radio"] {
@@ -261,21 +262,67 @@ label > input[type="radio"] + * {
 }
 @media only screen and (max-width:430px) {
   .card {
-    width: 96vw;
-    height: 78vh;
+    width: 80vw;
+    height: 75vh;
     background-color: #ffff;
     margin: auto;
     box-shadow: -4px 13px 50px -7px rgba(255, 138, 0, 0.3);
     border-radius: 26px;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   h4 {
     width: min-content;
     display: inline;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+    font-size: 100;
   }
 }
+@media only screen and (max-width:378px) {
+  .card {
+    width: 88vw;
+    height: 73vh;
+    background-color: #ffff;
+    margin: auto;
+    box-shadow: -4px 13px 50px -7px rgba(255, 138, 0, 0.3);
+    border-radius: 26px;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  h4 {
+    width: min-content;
+    display: inline;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 100;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .card {
+    width: 88vw;
+    height: 70vh;
+    background-color: #ffff;
+    margin: auto;
+    box-shadow: -4px 13px 50px -7px rgba(255, 138, 0, 0.3);
+    border-radius: 26px;
+    overflow: hidden;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  h4 {
+    width: min-content;
+    display: inline;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 100;
+  }
+}
+
+
 
 
 
